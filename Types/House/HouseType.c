@@ -1,7 +1,3 @@
-//
-// Created by gigakox on 3/10/2023.
-//
-
 #include "HouseType.h"
 
 House* createHouse(int value) {

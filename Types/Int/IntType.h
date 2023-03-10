@@ -1,9 +1,5 @@
-//
-// Created by gigakox on 3/10/2023.
-//
-
-#ifndef PRLAB1_INTTYPE_H
-#define PRLAB1_INTTYPE_H
+#ifndef INTTYPE_H
+#define INTTYPE_H
 
 #include "../Type.h"
 
@@ -13,4 +9,4 @@ void deleteInt(void* a);
 
 static const Type IntType = {compareInt, deleteInt, printInt};
 
-#endif //PRLAB1_INTTYPE_H
+#endif //INTTYPE_H

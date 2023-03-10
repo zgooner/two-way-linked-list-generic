@@ -1,9 +1,5 @@
-//
-// Created by gigakox on 3/10/2023.
-//
-
-#ifndef PRLAB1_TYPE_H
-#define PRLAB1_TYPE_H
+#ifndef TYPE_H
+#define TYPE_H
 
 #include <stdbool.h>
 typedef bool (*compare)(void*, void*);
@@ -16,4 +12,4 @@ typedef struct Type {
     print PrintFunc;
 } Type;
 
-#endif //PRLAB1_TYPE_H
+#endif //TYPE_H

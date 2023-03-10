@@ -1,9 +1,5 @@
-//
-// Created by gigakox on 3/10/2023.
-//
-
-#ifndef PRLAB1_HOUSETYPE_H
-#define PRLAB1_HOUSETYPE_H
+#ifndef HOUSETYPE_H
+#define HOUSETYPE_H
 #include <malloc.h>
 #include <stdio.h>
 #include "../Type.h"
@@ -22,4 +18,4 @@ void printHouse(void* a);
 
 static const Type HouseType = {compareHouse, deleteHouse, printHouse};
 
-#endif //PRLAB1_HOUSETYPE_H
+#endif //HOUSETYPE_H

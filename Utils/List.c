@@ -1,7 +1,3 @@
-//
-// Created by gigakox on 3/10/2023.
-//
-
 #include "List.h"
 
 list_t* createNode() {

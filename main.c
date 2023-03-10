@@ -6,8 +6,6 @@
 #include "Utils/Constants.h"
 #include "Types/House/HouseType.h"
 
-#define _CRT_SECURE_NO_WARRNINGS
-
 int main() {
     char command[MAX_BUFFER_SIZE];
     list_t *head = createNode();

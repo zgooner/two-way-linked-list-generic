@@ -1,9 +1,5 @@
-//
-// Created by gigakox on 3/10/2023.
-//
-
-#ifndef PRLAB1_LIST_H
-#define PRLAB1_LIST_H
+#ifndef LIST_H
+#define LIST_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,4 +20,4 @@ bool removeNode(list_t** head, int index, void (*delete)(void*));
 void deleteList(list_t* head, void (*delete)(void*));
 void printList(list_t* head, void (*print)(void*));
 
-#endif //PRLAB1_LIST_H
+#endif //LIST_H
